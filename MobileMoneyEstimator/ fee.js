@@ -5,12 +5,12 @@ function estimateTransactionFee(amountTosend) {
     }else if (fee > 70) {
         fee = 70; 
     }
-    consoletotal= 'amountTosent+ fee';
-    console.log('sending KES ${amountTosent};');
-    console.log('calculateTransaction fee: KES ${fee}');
+    const total = 'amountTosent + fee';
+    console.log('Sending KES ${amountTosent};');
+    console.log('CalculateTransaction fee: KES ${fee}');
     console.log('Total amount to be deducted : KES ${total}');
 
 }
 const input = prompt("unatuma Ngapi?(KES):");
-const amount=number(userinput);
+const amount = parseFloat(input);
 estimateTransactionFee(amount);
