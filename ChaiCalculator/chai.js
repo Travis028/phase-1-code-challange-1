@@ -1,4 +1,4 @@
-function calculateChaiingredients(numderofcups) {
+function calculateChaiIngredients(numderofcups) {
     const water = numberofcups * 600; // in ml
     const milk = numberofcups * 150; // in ml
     const teaLeaves = numberofcups * 3; // in teaspoons
