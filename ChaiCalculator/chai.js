@@ -9,8 +9,8 @@ function calculateChaiingredients(numderofcups) {
     console.log(`${milk} ml of milk`);
     console.log(`${teaLeaves} teaspoons of tea leaves`);
     console.log(`${sugar} teaspoons of sugar`);
-    console.log('Enjoy your chai bora!');
+    console.log("Enjoy your chai bora!");
 }
         const input = prompt("Karibu! How many cups of Chai Bora would you like to make?:");
         const numberOfCups = parseInt(input, 10);
-        calculateChaiingredients(numberOfCups);
+        calculateChaiIngredients(numberOfCups);
